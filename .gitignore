@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+*.sqlite3
+analysis.db
+
+# Node / frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Editor / OS files
+.DS_Store
+.vscode/
+.idea/
+*.log
+
+# Build artifacts
+build/
+dist/
+*.egg-info/

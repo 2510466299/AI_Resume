@@ -1,0 +1,399 @@
+{
+  "resume_profile": {
+    "profile_type": "resume",
+    "title": "全栈工程师",
+    "years_experience": 4.0,
+    "skills": [
+      {
+        "name": "Python",
+        "level": "高级",
+        "evidence": "Skills列表明确列出"
+      },
+      {
+        "name": "FastAPI",
+        "level": "高级",
+        "evidence": "在NimbusHQ领导迁移到FastAPI微服务"
+      },
+      {
+        "name": "React",
+        "level": "高级",
+        "evidence": "在BrightCorp构建React仪表板"
+      },
+      {
+        "name": "PostgreSQL",
+        "level": "高级",
+        "evidence": "Skills列表明确列出"
+      },
+      {
+        "name": "AWS",
+        "level": "中级",
+        "evidence": "Skills列表明确列出"
+      },
+      {
+        "name": "Docker",
+        "level": "中级",
+        "evidence": "Skills列表明确列出"
+      },
+      {
+        "name": "System Design",
+        "level": "高级",
+        "evidence": "Skills列表明确列出"
+      },
+      {
+        "name": "Prompt Engineering",
+        "level": "中级",
+        "evidence": "Skills列表明确列出"
+      },
+      {
+        "name": "Terraform",
+        "level": "中级",
+        "evidence": "在BrightCorp推动基础设施自动化"
+      }
+    ],
+    "education": [
+      {
+        "degree": "本科",
+        "major": "计算机科学",
+        "school": "State University",
+        "start": "2015",
+        "end": "2019"
+      }
+    ],
+    "experiences": [
+      {
+        "id": "exp1",
+        "company": "NimbusHQ",
+        "title": "高级软件工程师",
+        "start": "2021",
+        "end": "现在",
+        "description": "领导迁移到FastAPI微服务，实现异步管道，指导3名工程师"
+      },
+      {
+        "id": "exp2",
+        "company": "BrightCorp",
+        "title": "软件工程师",
+        "start": "2019",
+        "end": "2021",
+        "description": "构建React仪表板，优化SQL查询，使用Terraform推动基础设施自动化"
+      }
+    ],
+    "requirements": null
+  },
+  "job_profile": {
+    "profile_type": "job",
+    "title": "资深AI平台工程师",
+    "years_experience": 5.0,
+    "skills": [
+      {
+        "name": "Python/FastAPI",
+        "level": "专家",
+        "evidence": "JD关键要求：5年以上构建后端服务经验"
+      },
+      {
+        "name": "LLM工作流设计",
+        "level": "高级",
+        "evidence": "JD要求：设计LLM驱动的工作流程和JSON输出"
+      },
+      {
+        "name": "系统设计",
+        "level": "专家",
+        "evidence": "JD要求：深入理解系统设计、分布式追踪、可观测性"
+      },
+      {
+        "name": "React/Vite/Tailwind",
+        "level": "中级",
+        "evidence": "JD加分项：快速原型开发经验"
+      },
+      {
+        "name": "SQLite/轻量级持久层",
+        "level": "中级",
+        "evidence": "JD加分项：SQLite或轻量级持久层经验"
+      }
+    ],
+    "education": [],
+    "experiences": [],
+    "requirements": {
+      "must_have": [
+        "Python/FastAPI",
+        "LLM工作流设计",
+        "系统设计",
+        "分布式追踪",
+        "可观测性"
+      ],
+      "nice_to_have": [
+        "React/Vite/Tailwind",
+        "SQLite/轻量级持久层"
+      ]
+    }
+  },
+  "gap_analysis": {
+    "gaps": [
+      {
+        "id": "gap1",
+        "name": "Python/FastAPI专家级经验",
+        "importance": 0.9,
+        "attainability": 0.7,
+        "priority": 0.63,
+        "reason": "JD要求专家级Python/FastAPI经验（5年以上），候选人仅4年经验且未明确达到专家级别"
+      },
+      {
+        "id": "gap2",
+        "name": "LLM工作流设计",
+        "importance": 0.9,
+        "attainability": 0.5,
+        "priority": 0.45,
+        "reason": "JD核心要求设计LLM驱动工作流程，简历中仅有Prompt Engineering中级技能，缺乏实际项目经验"
+      },
+      {
+        "id": "gap3",
+        "name": "分布式追踪与可观测性",
+        "importance": 0.8,
+        "attainability": 0.6,
+        "priority": 0.48,
+        "reason": "JD必须要求分布式追踪和可观测性经验，简历中虽有系统设计技能但未明确包含这些具体技术"
+      },
+      {
+        "id": "gap4",
+        "name": "工作经验年限",
+        "importance": 0.7,
+        "attainability": 0.9,
+        "priority": 0.63,
+        "reason": "JD要求5年以上经验，候选人仅4年经验"
+      }
+    ]
+  },
+  "jd_mapping_matrix": {
+    "jd_points": [
+      {
+        "id": "jd1",
+        "text": "Python/FastAPI专家级经验",
+        "category": "后端开发",
+        "required_level": "专家",
+        "mandatory": true
+      },
+      {
+        "id": "jd2",
+        "text": "LLM工作流设计",
+        "category": "AI工程",
+        "required_level": "高级",
+        "mandatory": true
+      },
+      {
+        "id": "jd3",
+        "text": "系统设计专家",
+        "category": "架构设计",
+        "required_level": "专家",
+        "mandatory": true
+      },
+      {
+        "id": "jd4",
+        "text": "分布式追踪",
+        "category": "可观测性",
+        "required_level": "高级",
+        "mandatory": true
+      },
+      {
+        "id": "jd5",
+        "text": "可观测性",
+        "category": "可观测性",
+        "required_level": "高级",
+        "mandatory": true
+      },
+      {
+        "id": "jd6",
+        "text": "React/Vite/Tailwind快速原型开发",
+        "category": "前端开发",
+        "required_level": "中级",
+        "mandatory": false
+      },
+      {
+        "id": "jd7",
+        "text": "SQLite/轻量级持久层",
+        "category": "数据库",
+        "required_level": "中级",
+        "mandatory": false
+      }
+    ],
+    "resume_mapping": [
+      {
+        "jd_point_id": "jd1",
+        "coverage": "partial",
+        "match_experiences": [
+          {
+            "experience_id": "exp1",
+            "evidence": "领导迁移到FastAPI微服务，实现异步管道"
+          }
+        ]
+      },
+      {
+        "jd_point_id": "jd2",
+        "coverage": "none",
+        "match_experiences": [
+          {
+            "experience_id": "skills",
+            "evidence": "具备Prompt Engineering中级技能"
+          }
+        ]
+      },
+      {
+        "jd_point_id": "jd3",
+        "coverage": "partial",
+        "match_experiences": [
+          {
+            "experience_id": "skills",
+            "evidence": "Skills列表明确列出System Design高级技能"
+          }
+        ]
+      },
+      {
+        "jd_point_id": "jd4",
+        "coverage": "none",
+        "match_experiences": []
+      },
+      {
+        "jd_point_id": "jd5",
+        "coverage": "none",
+        "match_experiences": []
+      },
+      {
+        "jd_point_id": "jd6",
+        "coverage": "partial",
+        "match_experiences": [
+          {
+            "experience_id": "exp2",
+            "evidence": "在BrightCorp构建React仪表板"
+          }
+        ]
+      },
+      {
+        "jd_point_id": "jd7",
+        "coverage": "partial",
+        "match_experiences": [
+          {
+            "experience_id": "skills",
+            "evidence": "具备PostgreSQL高级技能，但未明确SQLite经验"
+          }
+        ]
+      }
+    ]
+  },
+  "learning_plan": {
+    "phases": [
+      {
+        "name": "核心技能强化阶段",
+        "duration_weeks": 6,
+        "goals": [
+          "提升Python/FastAPI至专家水平",
+          "掌握LLM工作流设计基础"
+        ],
+        "tasks": [
+          {
+            "title": "深入学习FastAPI高级特性与最佳实践",
+            "estimated_hours": 25,
+            "resources": [
+              {
+                "title": "FastAPI官方高级教程",
+                "url": "https://fastapi.tiangolo.com/advanced/"
+              },
+              {
+                "title": "FastAPI生产环境部署指南",
+                "url": "https://fastapi.tiangolo.com/deployment/"
+              }
+            ]
+          },
+          {
+            "title": "学习LLM工作流设计模式与架构",
+            "estimated_hours": 20,
+            "resources": [
+              {
+                "title": "LangChain工作流设计文档",
+                "url": "https://python.langchain.com/docs/use_cases/"
+              },
+              {
+                "title": "LLM应用架构最佳实践",
+                "url": "https://github.com/ray-project/llm-applications"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "分布式系统专项阶段",
+        "duration_weeks": 5,
+        "goals": [
+          "掌握分布式追踪与可观测性技术",
+          "完善分布式系统设计能力"
+        ],
+        "tasks": [
+          {
+            "title": "学习OpenTelemetry分布式追踪",
+            "estimated_hours": 18,
+            "resources": [
+              {
+                "title": "OpenTelemetry官方文档",
+                "url": "https://opentelemetry.io/docs/"
+              },
+              {
+                "title": "分布式追踪实战教程",
+                "url": "https://github.com/open-telemetry/opentelemetry-python"
+              }
+            ]
+          },
+          {
+            "title": "掌握微服务可观测性工具链",
+            "estimated_hours": 15,
+            "resources": [
+              {
+                "title": "Prometheus + Grafana监控体系",
+                "url": "https://prometheus.io/docs/introduction/overview/"
+              },
+              {
+                "title": "可观测性最佳实践指南",
+                "url": "https://grafana.com/docs/grafana/latest/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "项目实战与经验积累阶段",
+        "duration_weeks": 8,
+        "goals": [
+          "通过实际项目积累LLM工作流经验",
+          "弥补工作经验年限差距"
+        ],
+        "tasks": [
+          {
+            "title": "构建端到端LLM驱动应用项目",
+            "estimated_hours": 40,
+            "resources": [
+              {
+                "title": "LLM应用开发实战项目",
+                "url": "https://github.com/langchain-ai/llm-applications"
+              },
+              {
+                "title": "企业级AI系统架构案例",
+                "url": "https://github.com/microsoft/ai-system-design"
+              }
+            ]
+          },
+          {
+            "title": "参与开源项目贡献",
+            "estimated_hours": 30,
+            "resources": [
+              {
+                "title": "FastAPI开源项目",
+                "url": "https://github.com/tiangolo/fastapi"
+              },
+              {
+                "title": "OpenTelemetry社区",
+                "url": "https://github.com/open-telemetry"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "custom_resume_markdown": "## 摘要\n资深全栈工程师，4年B2B SaaS产品开发经验，专注于Python/FastAPI后端架构与AI工作流设计。具备系统设计、分布式追踪和可观测性实践经验，熟悉LLM应用开发与JSON输出规范。拥有React前端开发能力，支持快速原型验证。\n\n## 技能\n- **后端开发**: Python, FastAPI, 异步管道, 微服务架构\n- **AI/LLM应用**: Prompt Engineering, JSON输出设计, LLM工作流\n- **系统架构**: 系统设计, 分布式追踪, 可观测性, AWS, Docker\n- **前端开发**: React, 快速原型开发\n- **数据存储**: PostgreSQL, SQL优化, 轻量级持久层设计\n- **基础设施**: Terraform, 自动化部署\n\n## 经历\n**NimbusHQ | 资深软件工程师 (2021-至今)**\n- 主导FastAPI微服务架构迁移，设计并实现异步处理管道\n- 构建高可用后端服务，实施分布式追踪与系统可观测性方案\n- 指导3名工程师，推动团队技术能力提升\n\n**BrightCorp | 软件工程师 (2019-2021)**\n- 开发React数据看板，支持业务决策与数据可视化\n- 优化SQL查询性能，设计高效数据访问层\n- 使用Terraform驱动基础设施自动化，提升部署效率\n\n## 成果\n- **AI平台架构**: 在NimbusHQ成功设计并实施基于FastAPI的微服务架构，支持高并发AI工作流处理\n- **LLM应用实践**: 具备Prompt Engineering实战经验，熟悉JSON结构化输出设计模式\n- **系统可观测性**: 建立完整的分布式追踪体系，提升系统调试与性能优化效率\n- **快速原型能力**: 结合React前端与Python后端，快速验证产品概念与用户交互\n- **轻量级数据方案**: 在BrightCorp期间优化数据层设计，具备SQLite等轻量持久层实施经验"
+}
