@@ -12,6 +12,7 @@ load_dotenv()
 
 DEFAULT_MODEL = os.getenv("LLM_MODEL", "deepseek-chat")
 API_BASE_URL = os.getenv("LLM_API_BASE", "https://api.deepseek.com/chat/completions")
+
 SYSTEM_PROMPT = (
     "You are an AI career analyst that only outputs valid JSON per instructions."
 )
@@ -22,7 +23,11 @@ class LLMClientError(RuntimeError):
 
 
 def resolve_default_api_key() -> str | None:
-    return os.getenv("DEEPSEEK_API_KEY") or os.getenv("OPENAI_API_KEY")
+    return (
+        os.getenv("DEEPSEEK_API_KEY")
+        or os.getenv("OPENAI_API_KEY")
+
+    )
 
 
 def _get_api_key(override: str | None = None) -> str:
@@ -36,7 +41,7 @@ def _get_api_key(override: str | None = None) -> str:
     return api_key
 
 
-def call_llm(
+https://api-docs.deepseek.com/zh-cn/api/create-chat-completiondef call_llm(
     prompt: str,
     *,
     model: str | None = None,
