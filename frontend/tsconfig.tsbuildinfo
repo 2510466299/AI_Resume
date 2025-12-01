@@ -1,1 +1,0 @@
-{"root":["./src/app.tsx","./src/config.ts","./src/i18n.ts","./src/main.tsx","./src/types.ts","./src/hooks/usepersistentstate.ts","./src/pages/analyzepage.tsx","./src/pages/gapoverviewpage.tsx","./src/pages/historypage.tsx","./src/pages/planboardpage.tsx","./src/pages/promptsettingspage.tsx","./src/pages/resumestudiopage.tsx"],"version":"5.9.3"}
